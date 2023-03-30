@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+}
+.hsb::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hsb {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.fr{
+    float: right;
+    color: black;
+}
+.df{
+    display: flex;
+}
+.dfs{
+    display: flex;
+    justify-content: space-between;
+}
+.ml10{
+    margin-left: 10px;
+    
+}
+.mr20{
+    margin-left: 20px;
+    
+}
+.pl20{
+    padding-left: 20px;
+}
+.lh25{
+    line-height: 25px;
+}
+.img15{
+    padding-top: 5px;
+    height: 20px;
+    width: 15px;
+    margin-right: 5px;
+    background-size: cover;
+}
+.btnh35{
+    height: 35px;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 0;
+    border: 1px solid black;
+    margin-top: 8px;
+    background-color: white;
+}
+.btnh35:hover{
+    background-color: gray;
+}
+.blue{
+    background-color: dodgerblue;
+    color: white;
+}
+.blue:hover{
+    background-color: lightskyblue;
+}
+main-container{
+    height: 100%;
+    width: 100%;
+}
+#upper-container{
+    width: 100%;
+    height: 65px;
+    background-color: white;
+}
+#brand{
+    height: 40px;
+    width: 100%;
+    font-size: 25px;
+    padding-left:  18px;
+    line-height: 50px;
+    color:rgb(17,184,231);
+    background-color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+#QV{
+    width: 100%;
+    height: 25px;
+    background-color: wheat;
+    line-height: 25px;
+    font-size: 17px;
+    color:black;
+}
+#middle-container{
+    width: 100%;
+    height: calc(100vh - 60px - 65px);
+    background-color: wheat;
+    border: 2px solid black;
+}
+#left-box{
+    float: left;
+    width: calc(100% - 260px);
+    height: 100%;
+    background-color: white;
+    
+}
+#ac{
+    height: 35px;
+    width: 100%;
+    background-color: white;
+}
+.img16{
+    padding-bottom:7px;
+    height: 10px;
+    width: 5px;
+    margin-bottom: 100px;
+    background-size: cover;
+}
+.img17{
+    height: 30px;
+    width: 25px;
+}
+#apt{
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 70%;
+    line-height: 160%;
+    background-color: rgb(113,226,249);
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+}
+#apt img{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#calc{
+    margin-top: 5px;
+    height: 25px;
+    width: 23px;
+}
+#st{
+    
+    height: 25px;
+    width: 100%;
+    background-color: wheat;
+    font-size: 16px;
+    line-height: 25px;
+    
+}
+#sec-info{
+    overflow: scroll; 
+    border: 1px solid black;
+}
+#sec-info-container{
+    height: 30px;
+    width: calc(4 * 136);
+    border: 1px solid black;
+    border-right: none;
+}
+.sections{
+    float: left;
+    height: 30px;
+    width: fit-content;
+    background-color: skyblue;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 8px;
+    border-right: 1px solid black;
+}
+
+.sections img{
+    margin-left: 10px;
+    margin-top: 2px;
+    
+}
+#q-type-desc{
+    width: 100%;
+    height: 25px;
+    background-color: wheat;
+}
+#q-type{
+    font-size: 14px;
+}
+#q-desc{
+    font-size: 12px;
+}
+#q-no{
+    height: 25px;
+    width: 100%;
+    margin-left: 1px;
+    padding-left: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid black;
+    line-height: 25px;
+}
+#q-opts-container{
+    width: 100%;
+    height: calc(100% - 35px - 25px - 32px - 25px - 25px - 15px);
+    background-color: white;
+    border: 1px solid black;
+}
+#watermark{
+    position: absolute;
+    height: calc(100% - 35px - 25px - 32px - 25px - 65px - 25px - 95px);
+    width: calc(100% - 265px);
+    background-color: wheat;
+    
+}
+#q-opts{
+    position: absolute;
+    height: calc(100% - 35px - 25px - 32px - 25px - 65px - 25px - 95px);
+    width: calc(100% - 265px);
+    background-color: transparent;
+}
+#question{
+    background-color: wheat;
+}
+#right-box{
+    float: left;
+    width: 260px;
+    height: 100%;
+    background-color: wheat;
+    
+}
+#user-details{
+    padding-top: 7px;
+    height: 95px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+}
+#camera{
+    float: left;
+    margin-left: 5px;
+    height: 90%;
+    width: 90px;
+    background-color: black;
+}
+#user-data{
+    float: left;
+    height: 90%;
+    width: calc(100% - 95px);
+    background-color: wheat;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+#Qdetails{
+    overflow: scroll;
+    width: 100%;
+    height: calc(100vh - 95px - 127px);
+    border: 2px solid black;
+}
+#details{
+    width: 100%;
+    height: 140px;
+    background-color: red;
+    background-image: url("../image/desc.jpg");
+    background-size: cover;
+}
+.sec-name{
+    float: left;
+    height: 30px;
+    width: 100%;
+    background-color: wheat;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    padding-left: 10px;
+        border: 1px solid black;
+
+}
+#chooseq{
+    float: left;
+    height: 20px;
+    width: 100%;
+    font-size: 15px;
+    background-color: white;
+    line-height: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.qblocks,.nv,.ans,.nans,.mfr,.amfr{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    
+}
+.nv{
+    background-color: rgb(234,234,234);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+.ans{
+    color: white;
+    background-image: url(../image/green.png);
+}
+.nans{
+    color: white;
+    background-image: url(../image/redmpng.png);
+}
+.mfr{
+    color: white;
+    background-image: url(../image/purp.png);
+}
+.amfr{
+    color: white;
+    background-image: url(../image/purp2.png);
+}
+#lower-container{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    
+}
+#l-left{
+    float: left;
+    height: 90%;
+    width: calc(100% - 260px);
+}
+#l-left-left{
+    overflow: scroll;
+}
+#l-left-left button{
+    float: left;
+}
+#l-right{
+    float: left;
+    width: 260px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
